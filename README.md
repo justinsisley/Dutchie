@@ -11,7 +11,7 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/github/release/justinsisley/dutchie.svg?style=for-the-badge" alt="GitHub release" /> <img src="https://img.shields.io/circleci/project/github/justinsisley/dutchie.svg?style=for-the-badge" alt="CircleCI" /> <img src="https://img.shields.io/github/license/justinsisley/dutchie.svg?style=for-the-badge" alt="license" />
+  <img src="https://img.shields.io/github/release/justinsisley/dutchie.svg?style=for-the-badge" alt="GitHub release" /> <img src="https://img.shields.io/circleci/project/github/justinsisley/Dutchie.svg?style=for-the-badge" alt="CircleCI" /> <img src="https://img.shields.io/github/license/justinsisley/dutchie.svg?style=for-the-badge" alt="license" />
 </p>
 
 ---
