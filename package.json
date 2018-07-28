@@ -1,6 +1,6 @@
 {
   "name": "dutchie",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A shepherd for your commits and changelog",
   "license": "MIT",
   "engines": {

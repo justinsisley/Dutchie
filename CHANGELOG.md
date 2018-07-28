@@ -1,5 +1,10 @@
 # Changelog
 
+## v1.0.2
+
+- __fix:__ Fix for finding parent package.json file [d07bf2a]
+
+
 ## v1.0.1
 
 - __build:__ Updated dependencies [84ed7c9]
