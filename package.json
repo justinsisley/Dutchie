@@ -14,7 +14,7 @@
     "commit": "node ./index.js --commit",
     "release": "node ./index.js --release",
     "lint": "eslint ./",
-    "test": "jest"
+    "test": "jest --env=node"
   },
   "dependencies": {
     "conventional-commit-types": "^2.2.0",
