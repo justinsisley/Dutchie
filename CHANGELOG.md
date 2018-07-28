@@ -1,5 +1,10 @@
 # Changelog
 
+## v1.0.3
+
+- __test:__ Added env flag to test runner [45b59e3]
+
+
 ## v1.0.2
 
 - __fix:__ Fix for finding parent package.json file [d07bf2a]
