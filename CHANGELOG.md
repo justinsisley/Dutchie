@@ -1,5 +1,10 @@
 # Changelog
 
+## v1.1.0
+
+- __feat:__ Added ability to create GitHub release [20468a7]
+
+
 ## v1.0.3
 
 - __test:__ Added env flag to test runner [45b59e3]
