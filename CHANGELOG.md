@@ -1,5 +1,10 @@
 # Changelog
 
+## v1.1.2
+
+- __fix:__ Fixing issues related to GitHub releases [c183379]
+
+
 ## v1.1.1
 
 - __fix:__ Updated GitHub API integration [b8a1427]
