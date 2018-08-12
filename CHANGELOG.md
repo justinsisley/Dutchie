@@ -1,5 +1,10 @@
 # Changelog
 
+## v1.1.3
+
+- __fix:__ Fixed linting error [eca9706]
+
+
 ## v1.1.2
 
 - __fix:__ Fixing issues related to GitHub releases [c183379]
