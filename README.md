@@ -91,9 +91,11 @@ git push
 
 ## Creating a New Release
 
+The `release` command will automatically create or update your `CHANGELOG.md` file, update the version in your `package.json` file, create a new Git tag for the version, and push all of the changes upstream.
+
 There are only two requirements for creating a release:
 
-1. Have one or more previous commits
+1. Have one or more previous commits, ideally using `dutchie --commit`
 2. Have no local changes
 
 Once you're ready to create a release, run:
@@ -104,7 +106,7 @@ npm run release
 
 If this is your first release, the `CHANGELOG.md` file will be created for you, and the version will be pulled from your `package.json` as is.
 
-For subsequent releases, the version will be automatically bumped based on the types of commits since your last release. If any of the commits contain a feature, the release will be a minor bump (e.g. from 1.0.0 to 1.1.0), otherwise, it will be a patch (e.g. from 1.0.0 to 1.0.1).
+For subsequent releases, the version will automatically be bumped based on the types of commits since your last release. If any of the commits contain a feature, the release will be a minor bump (e.g. from 1.0.0 to 1.1.0), otherwise, it will be a patch (e.g. from 1.0.0 to 1.0.1).
 
 To force a major release, use the `--major` argument:
 
@@ -112,7 +114,13 @@ To force a major release, use the `--major` argument:
 npm run release -- --major
 ```
 
-> __Note:__ The `release` command will automatically create or update your `CHANGELOG.md` file, update the version in your `package.json` file, create a new Git tag for the version, and push all of the changes upstream.
+To add this release to GitHub's "releases" feature, use the `--github` argument:
+
+```bash
+npm run release -- --github
+```
+
+> __Note:__ The `--github` argument will prompt you for your GitHub username and password. This information is never stored, and is only used to make the necessary GitHub API call to create the release. To verify this, I encourage you to view the source code in `lib/release.js`.
 
 # Contributing
 

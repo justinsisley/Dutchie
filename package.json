@@ -18,7 +18,8 @@
   },
   "dependencies": {
     "conventional-commit-types": "^2.2.0",
-    "inquirer": "^6.0.0",
+    "github-api": "^3.0.0",
+    "inquirer": "^6.1.0",
     "parent-package-json": "^2.0.1",
     "pluralize": "^7.0.0",
     "simple-git": "^1.96.0",
@@ -28,6 +29,6 @@
     "eslint": "^4.19.1",
     "eslint-config-airbnb-base": "^13.0.0",
     "eslint-plugin-import": "^2.13.0",
-    "jest": "^23.4.2"
+    "jest": "^23.5.0"
   }
 }
