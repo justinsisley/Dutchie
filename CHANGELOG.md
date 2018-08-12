@@ -1,5 +1,10 @@
 # Changelog
 
+## v1.1.4
+
+- __fix:__ Trimming whitespace in remote origin URL [1de657b]
+
+
 ## v1.1.3
 
 - __fix:__ Fixed linting error [eca9706]
