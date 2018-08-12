@@ -120,7 +120,7 @@ To add this release to GitHub's "releases" feature, use the `--github` argument:
 npm run release -- --github
 ```
 
-> __Note:__ The `--github` argument will prompt you for your GitHub username and password. This information is never stored, and is only used to make the necessary GitHub API call to create the release. To verify this, I encourage you to view the source code in `lib/release.js`.
+> __Note:__ The `--github` argument requires that you have created a GitHub personal access token with access to your repository and configured as an environment variable named `GITHUB_TOKEN`. You must also have a remote origin URL in a similar format to `git@github.com:justinsisley/Dutchie.git`. You can check your remote origin URL by running `git config --get remote.origin.url`.
 
 # Contributing
 
