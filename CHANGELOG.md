@@ -1,5 +1,10 @@
 # Changelog
 
+## v1.1.1
+
+- __fix:__ Updated GitHub API integration [b8a1427]
+
+
 ## v1.1.0
 
 - __feat:__ Added ability to create GitHub release [20468a7]
