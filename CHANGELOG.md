@@ -1,5 +1,10 @@
 # Changelog
 
+## v1.2.0
+
+- __feat:__ Prevent attempting to release if there are no new commits [798be50]
+
+
 ## v1.1.4
 
 - __fix:__ Trimming whitespace in remote origin URL [1de657b]
